@@ -1,0 +1,104 @@
+body{
+	font-family: 'Bree Serif', serif;
+}
+
+.logoHeight{
+  height: 40px;
+  margin: 0.4em;
+}
+
+.brown-2rm{
+  color: brown;
+  font-size: 1.5rem;
+}
+
+#nav{
+	height: 60px;
+	font-size: 30px;
+}
+
+#con{
+	margin-top: 30px;
+}
+
+#input_fields{
+margin-top: -50px;
+}
+
+.modal1{
+	display: none;
+	position: fixed;
+	z-index: 1;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	background-color: white;
+
+}
+.modal-content{
+	background-color: white;
+	margin: 15% auto;
+	padding: 20px;
+	border: 1px solid #888;
+	width: 80%;
+
+}
+.close.modal-footer{
+color: grey;
+float: right;
+font-size: 28px;
+font-weight: bold;
+}
+#trigger{
+	margin-left: 300px;
+}
+
+#mygt{
+	margin-left: 300px;
+}
+#myBtn{
+	margin-top: 100px;
+	margin-left: 100px;
+}
+
+
+#logo{
+	padding: 5px;
+}
+#tekstas{
+	margin-top: 50px;
+}
+p {
+	padding: 15px;
+}
+
+#pradzia{
+	margin-top: 20px;
+}
+
+
+.logikaDezes{
+	 min-height:  100px;
+}
+.logikaDezes2{
+	 min-height:  100px;
+}
+
+.parallax-container {
+	width: 100%;
+}
+
+.small-on-mobile{
+	font-size: 38px;
+}
+
+.carousel-img{
+	max-width: 300px;
+}
+
+.maxLimit{
+	max-width: 70%
+}
+

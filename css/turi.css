@@ -1,0 +1,98 @@
+body {
+font-family: 'Caveat Brush', cursive;
+}
+
+#fotoTuri{
+margin-top: 20px;
+margin-bottom: 20px;
+width: 300px; 
+height: 300px;
+object-fit: round;
+border-radius: 50%;
+}
+
+.block{
+float:center;
+width: 33.3%;
+border:1px solid #ccc;
+padding: 10px;
+box-sizing:border-box;
+width: 100%;
+
+}
+
+.logoHeight1{
+height: 150px;
+width: 250px;
+background-size: cover;
+}
+
+.logoWidth{
+height: 100x;
+width: 75px;
+}
+
+ .kepure{
+	color: black;
+}
+
+button{
+margin-top: 10px;
+font-family: 'Caveat Brush', cursive;
+color:black;	
+}
+input{
+font-family: 'Caveat Brush', cursive;
+}
+
+p{
+font-size: 25px;	
+font-weight: normal;
+}
+
+h5{
+
+text-underline-position: all;
+font-weight: bold;
+}
+
+footer{
+max-height: 80px;
+left: 0;
+bottom: 0;
+width: 100%;
+color: black;
+text-align: center;
+	
+}
+#galery1{
+margin-top: 10px;
+object-fit: round;
+border-radius: 50%;
+width: 80px; 
+height: 80px;
+color:#263238;
+background-image: url("../Images/Turi/galeryButton.jpg");
+background-size:cover;
+}
+
+h1{
+ text-align:  center;
+ }
+
+ h2{
+ text-align:  center;
+ }
+
+ .carousel .carousel-item {
+width:400px !important;
+}
+
+#textarea1{
+height: 200px;
+border-style: solid ;
+border-color: #90a4ae;
+}
+
+
+	
