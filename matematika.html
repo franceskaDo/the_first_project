@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--   import kalba -->
+      <link href="https://fonts.googleapis.com/css?family=Bree+Serif" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+      <link type="text/css" rel="stylesheet" href="css/main.css"  media="screen,projection"/>
+      <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+      <script src="https://code.jquery.com/ui/1.11.1/jquery-ui.min.js"></script>
+      <link rel="stylesheet" href="https://code.jquery.com/ui/1.11.1/themes/smoothness/jquery-ui.css" />
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      <meta charset="UTF-8">
+    </head>
+
+    <body class="blue-grey lighten-3">
+
+      <!-- Dropdown Structure -->
+    <ul id="dropdown1" class="dropdown-content">
+      <li><a href="bogdan.html">Puikios geometrijos žinios</a></li>
+      <li><a href="marius.html">Įstabi logika</a></li>
+      <li><a href="turi.html">Matematika Karalienė</a></li>
+      <li><a href="franceska.html">Einšteino IQ</a></li>
+    </ul>
+    <nav class="blue-grey darken-2" role="navigation">
+      <div id="nav">
+        <a id="logo-container" href="index.html" class="brand-logo">
+           <img class="logoHeight" src="Images/brains.png">
+        </a>
+        <ul id="nav-mobile" class="sidenav">
+          <a class="brown-2rm">Prizai</a>
+          <li><a href="bogdan.html">Geometrija</a></li>
+          <li><a href="marius.html">Logika</a></li>
+          <li><a href="turi.html">Matematika</a></li>
+          <li><a href="franceska.html">Einšteino IQ</a></li>
+          <a class="brown-2rm">Kita</a>
+          <li><a href="index.html">Pagrindinis</a></li>
+          <li><a href="kontaktai.html">Kontaktai</a></li>
+        </ul>
+        <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a> 
+         
+        <ul class="right hide-on-med-and-down">
+          <li><a href="index.html"><b>Pagrindinis</b></a></li>
+          <li><a href="kontaktai.html"><b>Kontaktai</b></a></li>
+          <!-- Dropdown Trigger -->
+          <li><a class="dropdown-trigger" href="#!" data-target="dropdown1">
+            <b>Prizai</b>
+            <i class="material-icons right">arrow_drop_down</i>
+          </a></li>
+        </ul>
+      </div>
+    </nav>
+
+  <nav class="transparent">
+    <div>
+      <div class="col s12">
+        <a href="index.html" class="breadcrumb" style="margin-left: 10px">Pagrindinis</a>
+        <a href="matematika.html" class="breadcrumb">Matematika</a>
+      </div>
+    </div>
+  </nav>
+  <div class="row">
+    <div class="col s12 m6 l6">
+      <div class="row">
+        <div class="col s10 offset-s1"> 
+           <h6>Užduotis-1</h6>
+            <p class=" logikaDezes z-depth-2">Ant trijų kortelių užrašyti skaičiai 2,5 ir 8. Kiek skirtingų triženklių skaičių galima sudaryti?</p>
+            <input id="first" type="text" class="validate">
+            <a class="waves-effect teal darken-4 btn" onclick="firstMathTask()">Tikrinti</a>
+        </div>
+      </div>
+    </div> 
+    <div class="col s12 m6 l6">
+      <div class="row">
+        <div class="col s10 offset-s1">
+          <h6>Užduotis-2</h6>
+          <p class="logikaDezes z-depth-2">Kriaušių buvo surinkta 124 kg mažiau nei obuolių. Obuolių surinko tris kartus daugiau nei kriaušių. Kiek surinko obuolių?</p>
+          <input id="second" type="text" class="validate">
+          <a class="waves-effect teal darken-4 btn" onclick="secondMathTask()">Tikrinti</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col s12 m6 l6">
+      <div class="row">
+        <div class="col s10 offset-s1">
+          <h6>Užduotis-3</h6>
+          <p class="logikaDezes z-depth-2">Klasėj 24 mokiniai, pusė jų - berniukai. Trečdalis klasės išmoko daugybos lentelę. Žinoma, kad 5 mergaitės puikiai ją moka. Koks skaičius berniukų jos dar nemoka?</p>
+          <input id="third" type="text" class="validate">
+          <a class="waves-effect teal darken-4  btn" onclick="thirdMathTask()">Tikrinti</a>
+        </div>
+      </div>
+    </div> 
+    <div class="col s12 m6 l6">
+      <div class="row">
+        <div class="col s10 offset-s1">
+          <h6>Užduotis-4</h6>
+          <p class="logikaDezes z-depth-2">Grupėjė visi žmonės mokosi anglų ir prancūzų kalbų. Iš jų septyniolika mokosi anglų, o penkiolika - prancūzų, o aštuoni - abi kalbas iš karto. Kiek grupėj žmonių?</p>
+          <input id="fourth" type="text" class="validate">
+          <a class="waves-effect teal darken-4  btn" onclick="fourthMathTask()">Tikrinti</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col s12 m6 l6">
+      <div class="row">
+        <div class="col s10 offset-s1">
+           <h6>Užduotis-5</h6>
+            <p class="logikaDezes z-depth-2">Žmogus sugalvojo skaičių, pridėjo prie jo vienetą, tada padaugino iš trijų, po to padalino iš šešių ir iš rezultato atėmė penkis. Rezultatas gavosi aštuoni. Kokį skaičių sugalvojo žmogus? </p>
+            <input id="fifth" type="text" class="validate">
+            <a class="waves-effect teal darken-4  btn" onclick="fifthMathTask()">Tikrinti</a>
+        </div>
+      </div>
+    </div> 
+    <div class="col s12 m6 l6">
+      <div class="row">
+        <div class="col s10 offset-s1">
+          <h6>Užduotis-6</h6>
+          <p class="logikaDezes z-depth-2">Iš baldų fabriko į 3 konferencijų sales atvežė 880 kėdžių. Stalui priklauso po 2 kėdes. 1 ir 2 salėje bendras stalų skaičius 640. 2 ir 3 - 720. Kiek stalų atvežė į kiekvieną salę?</p>
+          <input id="sixth" type="text" class="validate">
+          <a class="waves-effect teal darken-4  btn" onclick="sixthMathTask()">Tikrinti</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+      <!--JavaScript at end of body for optimized loading-->
+      <script type="text/javascript" src="js/materialize.min.js"></script>
+      <script type="text/javascript" src="js/matematika.js"></script>
+      <script type="text/javascript" src="js/init.js"></script>
+    </body>
+  </html>
+        
