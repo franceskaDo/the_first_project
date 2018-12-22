@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--   import kalba -->
+      <link href="https://fonts.googleapis.com/css?family=Bree+Serif" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+      <link type="text/css" rel="stylesheet" href="css/main.css"  media="screen,projection"/>
+      <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.11.1/jquery-ui.min.js"></script>
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.11.1/themes/smoothness/jquery-ui.css" />
+
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      <meta charset="UTF-8">
+    </head>
+
+    <body class="blue-grey lighten-3">
+
+      <!-- Dropdown Structure -->
+    <ul id="dropdown1" class="dropdown-content">
+      <li><a href="bogdan.html">Puikios geometrijos žinios</a></li>
+      <li><a href="marius.html">Įstabi logika</a></li>
+      <li><a href="turi.html">Matematika Karalienė</a></li>
+      <li><a href="franceska.html">Einšteino IQ</a></li>
+    </ul>
+    <nav class="blue-grey darken-2" role="navigation">
+      <div id="nav">
+        <a id="logo-container" href="index.html" class="brand-logo">
+           <img class="logoHeight" src="Images/brains.png">
+        </a>
+        <ul id="nav-mobile" class="sidenav">
+          <a class="brown-2rm">Prizai</a>
+          <li><a href="bogdan.html">Geometrija</a></li>
+          <li><a href="marius.html">Logika</a></li>
+          <li><a href="turi.html">Matematika</a></li>
+          <li><a href="franceska.html">Einšteino IQ</a></li>
+          <a class="brown-2rm">Kita</a>
+          <li><a href="index.html">Pagrindinis</a></li>
+          <li><a href="kontaktai.html">Kontaktai</a></li>
+        </ul>
+        <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a> 
+        <ul class="right hide-on-med-and-down">
+          <li><a href="index.html"><b>Pagrindinis</b></a></li>
+          <li><a href="kontaktai.html"><b>Kontaktai</b></a></li>
+          <!-- Dropdown Trigger -->
+          <li><a class="dropdown-trigger" href="#!" data-target="dropdown1">
+            <b>Prizai</b>
+            <i class="material-icons right">arrow_drop_down</i>
+          </a></li>
+        </ul>
+      </div>
+    </nav>
+
+<nav class="transparent">
+    <div>
+      <div class="col s12">
+        <a href="index.html" class="breadcrumb" style="margin-left: 10px">Pagrindinis</a>
+        <a href="iq.html" class="breadcrumb">IQ</a>
+
+      </div>
+    </div>
+  </nav>
+    <div class="row">
+      <div class="col s12 m6 l6">
+        <div class="row">
+          <div class="col s10 offset-s1"> 
+           <h6>Užduotis-1</h6>
+            <p class="logikaDezes2 z-depth-2">Kelionių agentas priėmė 53 užsakymus kelionėms į Tailandą, 22 kelionėms į Balį ir 23 kelionėms į Indiją. Kiek užsakymų agentas gavo kelionėms į Kanadą?</p>
+            <input id="first" type="text" class="validate">
+            <a class="waves-effect teal darken-4 btn" onclick="firstIqTask()">Tikrinti</a>
+          </div>
+        </div>
+      </div> 
+      <div class="col s12 m6 l6">
+        <div class="row">
+          <div class="col s10 offset-s1">
+            <h6>Užduotis-2</h6>
+            <p class="logikaDezes2 z-depth-2">Laikrodis A vidurnaktį rodė teisingą laiką. Nuo tada kas valandą laikrodis ėmė atsilikti po keturias minutes. Laikrodis sustojo, kai rodė laiką B. Kiek dabar yra valandų? Laikrodis veikia mažiau nei 24 valandas. </p>
+            <input id="second" type="text" class="validate">
+            <a class="waves-effect teal darken-4 btn" onclick="secondIqTask()">Tikrinti</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col s12 m6 l6">
+        <div class="row">
+          <div class="col s10 offset-s1"> 
+            <h6>Užduotis-3</h6>
+            <p class="logikaDezes2 z-depth-2">Sudėkite po tris kaičius eilėje: 0 3 4 5 6 10 12 15 kad jų suma būtų 21. Kiekvienas skaičiaus panaudojimo kartai neribojami. Kiek skirtingų kombinacijų sudarėte?</p>
+            <input id="third" type="text" class="validate">
+            <a class="waves-effect teal darken-4 btn" onclick="thirdIqTask()">Tikrinti</a>
+          </div>
+        </div>
+      </div> 
+      <div class="col s12 m6 l6">
+        <div class="row">
+          <div class="col s10 offset-s1">
+            <h6>Užduotis-4</h6>
+            <p class="logikaDezes2 z-depth-2">Kokį skaičių reikėtų įrašyti vietoje klaustuko?<br><br>2 12 30 56 90 ?</p>
+            <input id="fourth" type="text" class="validate">
+            <a class="waves-effect teal darken-4 btn" onclick="fourthIqTask()">Tikrinti</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+      <!--JavaScript at end of body for optimized loading-->
+      <script type="text/javascript" src="js/materialize.min.js"></script>
+      <script type="text/javascript" src="js/main.js"></script>
+      <script type="text/javascript" src="js/iq.js"></script>
+      <script type="text/javascript" src="js/init.js"></script>
+    </body>
+  </html>
+        

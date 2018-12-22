@@ -1,0 +1,140 @@
+
+<!DOCTYPE html>
+  <html>
+    <head>
+      <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--   import kalba -->
+      <link href="https://fonts.googleapis.com/css?family=Bree+Serif" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+
+      <link type="text/css" rel="stylesheet" href="css/main.css"  media="screen,projection"/>
+      <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.11.1/jquery-ui.min.js"></script>
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.11.1/themes/smoothness/jquery-ui.css" />
+
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      <meta charset="UTF-8">
+    </head>
+
+    <body class="blue-grey lighten-3">
+
+      <!-- Dropdown Structure -->
+    <ul id="dropdown1" class="dropdown-content">
+      <li><a href="bogdan.html">Puikios geometrijos žinios</a></li>
+      <li><a href="marius.html">Įstabi logika</a></li>
+      <li><a href="turi.html">Matematika Karalienė</a></li>
+      <li><a href="franceska.html">Einšteino IQ</a></li>
+    </ul>
+    <nav class="blue-grey darken-2" role="navigation">
+      <div id="nav">
+        <a id="logo-container" href="index.html" class="brand-logo">
+           <img class="logoHeight" src="Images/brains.png">
+        </a>
+        <ul id="nav-mobile" class="sidenav">
+          <a class="brown-2rm">Prizai</a>
+          <li><a href="bogdan.html">Geometrija</a></li>
+          <li><a href="marius.html">Logika</a></li>
+          <li><a href="turi.html">Matematika</a></li>
+          <li><a href="franceska.html">Einšteino IQ</a></li>
+          <a class="brown-2rm">Kita</a>
+          <li><a href="index.html">Pagrindinis</a></li>
+          <li><a href="kontaktai.html">Kontaktai</a></li>
+        </ul>
+        <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a> 
+         
+        <ul class="right hide-on-med-and-down">
+          <li><a href="index.html"><b>Pagrindinis</b></a></li>
+          <li><a href="kontaktai.html"><b>Kontaktai</b></a></li>
+          <!-- Dropdown Trigger -->
+          <li><a class="dropdown-trigger" href="#!" data-target="dropdown1">
+            <b>Prizai</b>
+            <i class="material-icons right">arrow_drop_down</i>
+          </a></li>
+        </ul>
+      </div>
+    </nav>
+
+<nav class="transparent">
+    <div>
+      <div class="col s12">
+        <a href="index.html" class="breadcrumb" style="margin-left: 10px">Pagrindinis</a>
+        <a href="logika.html" class="breadcrumb">Logika</a>
+      </div>
+    </div>
+  </nav>
+  <div class="row">
+    <div class="col s12 m6 l6 ">
+      <div class="row">
+        <div class="col s10 offset-s1"> 
+          <h6>Užduotis-1</h6>
+          <p class="logikaDezes z-depth-2">Žmogus sako, kad jam užvakar sukako trylika metų, o kitais metais jis švęs šešiolikos metų sukaktį. Ar tai tiesa? ( Taip arba ne)</p>
+          <input id="first" type="text" class="validate">
+          <a class="waves-effect teal darken-4 btn" onclick="firstLogTask()">Tikrinti</a>
+        </div>
+      </div>
+    </div> 
+    <div class="col s12 m6 l6">
+      <div class="row">
+        <div class="col s10 offset-s1">
+          <h6>Užduotis-2</h6>
+          <p class="logikaDezes z-depth-2">Moteris suvalgo 6 pyragaičius per 12min., o jos draugė tą patį kiekį du kartus greičiau. Per kiek laiko jos drauge suvalgys 6 pyragaičius?</p>
+          <input id="second" type="text" class="validate">
+          <a class="waves-effect teal darken-4 btn" onclick="secondLogTask()">Tikrinti</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col s12 m6 l6">
+        <div class="row">
+          <div class="col s10 offset-s1"> 
+           <h6>Užduotis-3</h6>
+            <p class="logikaDezes z-depth-2">Parduotuvė prekiauja dviejų ir trijų ratų dviračiais vaikams. Vienų ir kitų parduoda po lygiai. Kiek ratų iš viso turi šie dviračiai? 1) 16 2) 24 3) 25 4) 28 5) 33 ?</p>
+            <input id="third" type="text" class="validate">
+            <a class="waves-effect teal darken-4 btn" onclick="thirdLogTask()">Tikrinti</a>
+          </div>
+        </div>
+      </div> 
+      <div class="col s12 m6 l6">
+        <div class="row">
+          <div class="col s10 offset-s1"> 
+            <h6>Užduotis-4</h6>
+            <p class="logikaDezes z-depth-2">Prie dviženklio skaiciaus pridedame 44, ir tą suma, kurią gavome, dauginame iš paties mažiausio keturženklio skaičiaus, tada daliname iš paties mažiausio triženklio skaičiaus. Kokį skaičių gausim?</p>
+            <input id="fourth" type="text" class="validate">
+            <a class="waves-effect teal darken-4 btn" onclick="fourthLogTask()">Tikrinti</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col s12 m6 l6">
+        <div class="row">
+          <div class="col s10 offset-s1"> 
+           <h6>Užduotis-5</h6>
+            <p class="logikaDezes z-depth-2">Jonas, Petras ir Antanas vienodai greitai kasa žemę. Jei bet kurie du iš jų dirbs kartu - žemės plotą sukas per pusantros valandos. Kiek laiko užtruks, jei dirbs visi trys kartu?</p> 
+            <input id="fifth" type="text" class="validate">
+            <a class="waves-effect teal darken-4 btn" onclick="fifthLogTask()">Tikrinti</a>
+          </div>
+        </div>
+      </div> 
+      <div class="col s12 m6 l6">
+        <div class="row">
+          <div class="col s10 offset-s1">
+            <h6>Užduotis-6</h6>
+            <p class="logikaDezes z-depth-2">Mokiniai puošė eglę. Visiems buvo išdalinti 62 žaislai, kiekvienas gavo bent po vieną papuošimą, bet nebuvo mokinių, kurie turėtų vienodą skaičių žaislų. Kiek mokinių puošė eglę?</p>
+            <input id="sixth" type="text" class="validate">
+            <a class="waves-effect teal darken-4 btn" onclick="sixthLogTask()">Tikrinti</a>
+          </div>
+        </div>
+      </div>
+    </div>
+      <!--JavaScript at end of body for optimized loading-->
+      <script type="text/javascript" src="js/materialize.min.js"></script>
+      <script type="text/javascript" src="js/init.js"></script>
+      <script type="text/javascript" src="js/logika.js"></script>
+    </body>
+  </html>
+        
